@@ -222,7 +222,7 @@ function setGame() {
 	userWord = [];
 	wrongGuesses = [];
 	correctGuesses = [];
-	document.getElementById("guess-count").innerHTML = guessCount;
+	document.getElementById("guess-count").innerHTML = guessCount + " guesses";
 	document.getElementById("wrong-guesses").innerHTML = "";
 	document.getElementById("poster").setAttribute("src", "assets/images/placeholder.jpg");
 };
