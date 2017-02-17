@@ -1,0 +1,83 @@
+body {
+       background-image: url(../images/background.jpg);
+}
+
+.blood {
+       color:silver;
+       text-shadow:
+       0px 4px 1px #300000,
+       0px 6px 1px #400000,
+       0px 8px 1px #500000,
+       0px 8px 1px #600000,
+       0px 8px 1px #700000,
+       0px 8px 1px #800000,
+       0px 8px 1px #900000,
+       0px 8px 1px #A00000,
+       0px 8px 1px #B00000,
+       0px 8px 10px #C00000,
+       0px 0px 10px #D00000,
+       0px 0px 10px #E00000,
+       0px 0px 10px #F00000,
+       0px 0px 10px #FA0000,
+       0px 0px 10px #FB0000,
+       0px 0px 10px #FC0000,
+       0px 0px 10px #FD0000,
+       0px 0px 10px #FE0000,
+       0px 0px 20px #FF0000;
+}
+
+.jumbotron {
+       background: #1e1e1e;
+}
+
+.jumbotron h1 {
+       font-family: 'Bahiana', cursive;
+       color: #FFF;
+}
+
+h2 {
+       font-family: 'Rock Salt', cursive;
+       color: #830303;
+}
+
+.panel {
+       opacity: 0.9;
+       margin: 0 auto 20px;
+}
+
+.panel-heading {
+       font-family: 'Rock Salt', cursive;
+       font-size: 1.5em;
+}
+
+#poster {
+       margin-bottom: 20px;
+}
+
+#release-year {
+       font-family: 'Rock Salt', cursive;
+       font-size: 1.2em;
+       margin-bottom: 20px;
+}
+
+#hangman-board {
+       max-width: 100%;
+       overflow: auto;
+       font-family: 'Bahiana', cursive;
+       font-size: 3em;
+}
+
+.letter {
+       padding: 10px;
+       background: #000;
+       margin: 0 10px;
+       color: #FFF;
+       display: inline-block;
+}
+
+.blank {
+       padding: 10px;
+       margin: 0 10px 10px;
+       background: gray;
+       display: inline-block;
+}

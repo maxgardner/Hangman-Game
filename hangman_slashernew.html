@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman: Slasher Edition</title>
+	<link href="https://fonts.googleapis.com/css?family=Bahiana|Rock+Salt" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class="jumbotron bg-blood">
+		<div class="container text-center">
+			<h1 class="header-text">Hangman</h1>
+			<h2 class="blood">Slasher Edition</h2>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="col-md-8">
+					<div class="panel panel-default">
+						<div class="panel-heading text-center">Movie To Guess</div>
+						<div class="panel-body">
+							<div>
+								<img class="img-responsive center-block" id="poster" src="assets/images/placeholder.jpg">
+							</div>
+
+							<div id="release-year" class="text-center">
+								&nbsp;
+							</div>
+
+							<div id="hangman-board" class="text-center">
+								&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading text-center">Your Guesses</div>
+						<div class="panel-body">
+							You've guessed <span id="wrong-guesses" class="text-danger"> </span>
+
+							<br><br>
+
+							You have <span id="guess-count">&nbsp;</span> left!
+						</div>
+					</div>
+					<div id="scoreboard" class="panel panel-default">
+						<div class="panel-heading text-center">Scoreboard</div>
+						<div class="panel-body">
+							Wins: <span id="win-count"> </span><br>
+							Losses: <span id="loss-count"> </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
